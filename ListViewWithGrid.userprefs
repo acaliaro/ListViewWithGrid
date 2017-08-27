@@ -1,0 +1,20 @@
+﻿<Properties StartupConfiguration="{E5D82CCE-AD69-4D0F-AF59-79A67186E3EC}|Default">
+  <MonoDevelop.Ide.ItemProperties.ListViewWithGrid.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6568AA47-0052-439C-9D5A-C1D35BA97972" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ListViewWithGrid/ListViewPageGrid.cs">
+    <Files>
+      <File FileName="ListViewWithGrid/ListViewWithGrid.cs" Line="12" Column="52" />
+      <File FileName="ListViewWithGrid/ListViewPage.cs" Line="52" Column="1" />
+      <File FileName="Droid/Resources/values/styles.xml" Line="2" Column="1" />
+      <File FileName="ListViewWithGrid/ListViewModel.cs" Line="22" Column="1" />
+      <File FileName="ListViewWithGrid/FodyWeavers.xml" Line="3" Column="21" />
+      <File FileName="ListViewWithGrid/ListViewPageGrid.cs" Line="30" Column="103" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.ListViewWithGrid.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+</Properties>
