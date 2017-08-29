@@ -7,7 +7,7 @@
       <File FileName="Droid/Resources/values/styles.xml" Line="2" Column="1" />
       <File FileName="ListViewWithGrid/ListViewModel.cs" Line="22" Column="1" />
       <File FileName="ListViewWithGrid/FodyWeavers.xml" Line="3" Column="21" />
-      <File FileName="ListViewWithGrid/ListViewPageGrid.cs" Line="30" Column="103" />
+      <File FileName="ListViewWithGrid/ListViewPageGrid.cs" Line="119" Column="10" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
@@ -16,5 +16,5 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.ListViewWithGrid.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+  <MonoDevelop.Ide.ItemProperties.ListViewWithGrid.Droid PreferredExecutionTarget="Android.01575C2C0200901E" />
 </Properties>

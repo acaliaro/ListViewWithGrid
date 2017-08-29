@@ -78,9 +78,24 @@ namespace ListViewWithGrid
         {
             public ListViewTemplateGrid(){
 
+                TapGestureRecognizer tgr = new TapGestureRecognizer();
+                tgr.Tapped += async (object sender, EventArgs e) => {
+
+                    try {
+                        
+                        await Application.Current.MainPage.DisplayAlert("Article", ((ListViewModel)this.BindingContext).Description, "Ok");
+
+                    }
+                    catch(Exception ex){
+
+                        await Application.Current.MainPage.DisplayAlert("Error", ex.Message, "Ok");
+                    }
+
+                };
 
                 Label labelDescription = new Label() {VerticalOptions = LayoutOptions.Center};
                 labelDescription.SetBinding(Label.TextProperty, "Description");
+                labelDescription.GestureRecognizers.Add(tgr);
 
                 Label labelQty = new Label() { VerticalOptions = LayoutOptions.Center, HorizontalOptions = LayoutOptions.Center };
                 labelQty.SetBinding(Label.TextProperty, "Qty");
